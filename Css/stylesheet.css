@@ -163,21 +163,24 @@ body {
   font-weight: 600;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .landing .bottom {
     margin: 0 40px;
   }
 }
+
 @media (max-width: 1200px) {
   .landing .bottom {
-    margin: 0 400px;
+    margin: 0 auto;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 1201px) {
   .landing .bottom {
-    margin: 0 40px;
+    margin: 0 auto;
+    width: 30%;
   }
 }
+
 .landing img {
   width: calc(100% +50px);
   padding: 0px 20px;
@@ -185,7 +188,7 @@ body {
 }
 @media (max-width: 767px) {
   .landing img {
-    width: 65%;
+    display: none;
   }
 }
 
