@@ -182,8 +182,7 @@ body {
 }
 
 .landing img {
-  width: calc(100% +50px);
-  padding: 0px 20px;
+  width: 80%;
   margin-top: 50px;
 }
 @media (max-width: 767px) {
