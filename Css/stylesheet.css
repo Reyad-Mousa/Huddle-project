@@ -188,7 +188,7 @@ body {
 }
 @media (max-width: 767px) {
   .landing img {
-    width: 60%;
+      width: 65%;
   }
 }
 
